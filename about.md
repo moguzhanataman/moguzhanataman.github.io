@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: Hakkımda
 permalink: /about/
 ---
 
-Some information about you!
+Merhaba ben Oğuzhan  
+Gebze Teknik Üniversitesinde (Eski adıyla Gebze Yüksek Teknoloji Enstitüsü) bilgisayar mühendisliği okuyorum. Blogumda programlama adına faydalı olduğuna inandığım şeyleri bulacaksınız.
 
-### More Information
+### Bana ulaşın
 
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+Bana bu eposta adresinden ulaşabilirsiniz.
+[thekhug@gmail.com](mailto:thekhug@gmail.com)
