@@ -19,8 +19,8 @@ Scheme'i oluşturan en temel yapılar atomlardır.
 Sayılar: `45`  
 Karakterler: `#\f`  
 Stringler: `"hello"`  
-Semboller: `'a`
-Boolean: `#t` yada `#f` 
+Semboller: `'a`  
+Boolean: `#t` yada `#f`  
 Boş liste: `'()`  
 
 ### 2.2 Cons Cell ###
