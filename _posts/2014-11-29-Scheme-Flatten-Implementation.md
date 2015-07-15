@@ -3,10 +3,6 @@ layout: post
 title: Scheme - Flatten Implementation
 ---
 
-Son programlama dilleri quizinde çıkan flatten fonksiyonu sorusu beni çok zorladı. Mantıklı bir algoritma bulabilmek için kendimi epeyce zorladım fakat elimde sonuç olarak flatten'ın çalışmasına dair birkaç dağınık fikir vardı.
-
-Bende quizden sonra öğrenmek adına [rosetta code'dan flatten implementasyonu](http://rosettacode.org/wiki/Flatten_a_list#Scheme)na göz attıktan sonra kodu kendim yazmaya çalıştım. Yazdığım kısacık kodda bile birçok hata aldım. Fakat bu sayede bazı şeyleri kafamda netleştirmiş oldum. Bunları sizinle paylaşayım istedim.
-
 ## Flatten Nedir? ##
 
 Öncelikle flatten tam olarak ne işe yarar kısa bir hatırlatmış olayım. Elimizde  
@@ -43,7 +39,7 @@ Bu bilgiler ışığında ortaya bir algoritma koymamız lazım. Flatten algorit
 
 ## Implementasyon ##
 
-Bunu Scheme dilinde implement ettiğimizde rosetta code'daki implementasyona yakın bir şey elde etmemiz gerekir. O da şu şekilde:
+Bunu Scheme dilinde implement ettiğimizde rosetta code'daki implementasyona[^1] yakın bir şey elde etmemiz gerekir. O da şu şekilde:
 
 {% highlight scheme %}
 (define (flatten x)
@@ -57,3 +53,5 @@ Bunu Scheme dilinde implement ettiğimizde rosetta code'daki implementasyona yak
 Önemli olan recursive fonksiyonumuzdaki base caseleri net bir şekilde ifade edebilmek ve üstünden geçilmemiş bir ihtimal bırakmamak. Bunu sağladığımızda recursive call'un düzgün çalışacağından emin oluyoruz.
 
 Umarım bu yazı faydalı olmuştur. Her türlü geri bildirim için bana ulaşın.
+
+[^1] Referans aldığım implementasyon [rosetta code, flatten implementasyonu](http://rosettacode.org/wiki/Flatten_a_list#Scheme)
