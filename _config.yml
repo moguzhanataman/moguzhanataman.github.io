@@ -6,7 +6,7 @@
 name: M. Oğuzhan Ataman
 
 # Short bio or description (displayed in the header)
-description: "Scheme, Scala ve Fonksiyonel Programlama Üzerine"
+description: "Software Developer"
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -19,7 +19,7 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 footer-links:
   dribbble: 
   email: 
-  facebook: thekhug
+  facebook:
   flickr: 
   github: moguzhanataman
   instagram: 
@@ -30,7 +30,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
-disqus: thekhug
+disqus: moguzhanataman
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-56301326-1
@@ -48,13 +48,19 @@ baseurl: ""
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
-markdown: kramdown
-highlighter: pygments
 permalink: /:title/
 
 # The release of Jekyll Now that you're using
-version: v1.0.0
+version: v3.10.0
+
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
 
 # Set the Sass partials directory, as we're using @imports
 sass:
