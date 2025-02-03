@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Hakkımda
+title: About Me
 permalink: /about/
 ---
 
-Merhaba ben Oğuzhan  
-Gebze Teknik Üniversitesinde (Eski adıyla Gebze Yüksek Teknoloji Enstitüsü) bilgisayar mühendisliği okuyorum. Blogumda programlama adına faydalı olduğuna inandığım şeyleri bulacaksınız.
+I'm Oguzhan, software developer with interest in functional programming.
+I primarily work with JavaScript, TypeScript, and Node.js, but lately, I've been really enjoying Elixir.
 
 ### Bana ulaşın
 
 Bana bu eposta adresinden ulaşabilirsiniz.
-[thekhug@gmail.com](mailto:thekhug@gmail.com)
+[moguzhanataman@gmail.com](mailto:moguzhanataman@gmail.com)
